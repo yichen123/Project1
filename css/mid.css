@@ -1,0 +1,123 @@
+* {
+	outline: 1px solid red !important;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/* 
+	control class
+*/
+
+.small-margin {
+	margin: 5px;
+}
+
+.centered {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.inner-center {
+	text-align: center;
+}
+
+
+body {
+	font-family: "Lato", sans-serif;
+	color: #747704;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+
+.container {
+	width: 100%;
+	max-width: 1100px;
+	background-color: rgba(19, 218, 218, 0.06);
+}
+
+/* 
+	grid class
+*/
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+/* 
+	main
+*/
+.section-line {
+	height: 1px;
+	background-color: black;
+}
+
+header {
+	display: flex;
+}
+
+.pic-logo {
+	max-width: 40%;
+}
+
+.text-header {
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.text-name {
+	font-weight: 100;
+	font-size: 45px;
+	margin: auto 0;
+}
+
+.pic-front {
+	width: 100%;
+	max-width: 1000px;
+}
+
+h3 {
+	width: 70%;
+	font-size: 20px;
+}
+
+.text-feature {
+	color: #bcbbbb;
+	text-transform: capitalize;
+}
+
+.project {
+	width: 50%;
+}
+
+.pic-project {
+	width: 95%;
+	max-width: 250px;
+}
+
+.text-project {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0px;
+}
